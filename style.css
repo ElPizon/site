@@ -207,8 +207,9 @@ a.presentation:hover, a.competences:hover ,a.passion:hover ,a.contact:hover{
     justify-content: center;
     margin: 20% auto;
 }
-.txtContact:hover{
-    background-color: rgb(201, 193, 193);
-    transition: 2s;
-    border-radius: 5px;
+span.txtContact:hover{
+    letter-spacing: 1.6em ;
+    transition: 0.7s;
+    display: flex;
+    justify-content: center;
 }
