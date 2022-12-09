@@ -140,7 +140,6 @@ a.presentation:hover, a.competences:hover ,a.passion:hover ,a.contact:hover{
 .container{
     padding: 25px;
     display: flex;
-    margin: 3% auto;
     width: auto;
     height: 80%;
     flex-direction: column;

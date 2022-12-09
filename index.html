@@ -13,6 +13,10 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
 
 </head>
 <body>
@@ -34,7 +38,10 @@
             </ul>
         </div>
     </section>
-    <section id="presentation">
+    <section id="presentation" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="50"
+    data-aos-offset="0">
         <div>
             <nav>
                 <ul class="navTitre">
@@ -43,13 +50,16 @@
                 </ul>
             </nav>
         </div>
-        <div class="positionAbout">
+        <div class="positionAbout" >
             <span class="aboutme">ABOUT ME</span>
             <span class="txtAbout">Front-end developer who care deeply about user experience.
                 Serious passion for UI design and new technologies.</span>
         </div>
     </section>
-    <section id="competences">
+    <section id="competences" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="50"
+    data-aos-offset="0">
         <div>
             <nav>
                 <ul class="navTitre">
@@ -68,7 +78,10 @@
             <div class="grid-item"></div>
         </div>
     </section>
-    <section id="passion">
+    <section id="passion" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="50"
+    data-aos-offset="0">
         <div>
             <nav>
                 <ul class="navTitre">
@@ -78,19 +91,28 @@
             </nav>
         </div>
         <div class="container">
-            <div class="dev">
+            <div class="dev" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="250"
+            data-aos-easing="ease-in-sine">
                 <span class="titreBloc">DEVELOPPEMENT</span>
                 <span class="Bloc">Passioné de développement dés que j'y ai touché, j'ai décidé d'en faire mon métier et de me spécialiser dans le web.
                     C'est pourquoi, je code principalement de HTML/CSS et JavaScript.
                 </span>
             </div>
-            <div class="colab">
+            <div class="colab" data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-delay="450"
+            data-aos-easing="ease-in-sine">
                 <span class="titreBloc">COLLABORATION</span>
                 <span class="BlocCollab">Étant de nature assez réservé, il ne m'est d'aucun problème de collaborer avec une équipe,
                     mon humeur et mon sourire me permettent de passer au delà de cette timidité et donc de collaborer avec mes collègues
                 </span>
             </div>
-            <div class="sport">
+            <div class="sport" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="650"
+            data-aos-easing="ease-in-sine">
                 <span class="titreBloc">SPORT</span>
                 <span class="Bloc">Ayant toujours pratiqué un sport dans ma vie, je contitue cette perpetualité, cela m'aide a me défouler et à penser à autre chose.
                     Tout en me gardant en bonne santé, et en extériorisant tout mes problèmes de la journée, ce qui me permet de garder cette bonne humeur.
@@ -98,7 +120,10 @@
             </div>
         </div>
     </section>
-    <section id="contact">
+    <section id="contact" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="50"
+    data-aos-offset="0">
         <div>
             <nav>
                 <ul class="navTitre">
@@ -108,10 +133,14 @@
             </nav>
         </div>
         <div>
-            <span class="txtContact"><a href="mailto:ldescotes1@gmail.com"
+            <span data-aos="zoom-in"
+            data-aos-delay="250" class="txtContact"><a href="mailto:ldescotes1@gmail.com"
                 acceskey="m"
                 tittle="Envoi d'un courreil à l'auteur">PRENDRE CONTACT</a></span>
         </div>
     </section>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
