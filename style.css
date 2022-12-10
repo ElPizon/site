@@ -1,6 +1,10 @@
 *{
     font-family: 'Cantata One', serif;
 }
+body{
+    width: 90vw;
+    height: auto;
+}
 li{
     list-style-type: none;
 }
@@ -39,6 +43,12 @@ a{
     mix-blend-mode: normal;
     display: flex;
     justify-content: center;
+}
+#menu{
+    background: url(userlmn_15fbc67c74b620005c2995a5c6390acf\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 65% 45%;
+    background-size: 30%;
 }
 nav.logo{
     display: flex;
@@ -153,6 +163,9 @@ a.presentation:hover, a.competences:hover ,a.passion:hover ,a.contact:hover{
     height: 70%;
     flex-direction: column;
     justify-content: center;
+    background:url(userlmn_8eba98c210a377ab4d7ceb5abaf01833\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .titreBloc{
     font-size: 18px;
@@ -228,4 +241,8 @@ span.txtContact:hover{
     background-color: #c8d6e5;
     border-radius: 6px;
     padding: 1px    ;
+}
+.grec{
+    position: fixed;
+    z-index: 10;
 }
