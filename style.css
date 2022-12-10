@@ -179,11 +179,12 @@ a.presentation:hover, a.competences:hover ,a.passion:hover ,a.contact:hover{
     width: 60%;
     flex-direction: column;
     align-content: flex-start;
+    padding-left: 20px;
 }
 .colab{
     display: flex;
     height: 30%;
-    width: auto;
+    width: 95%;
     flex-direction: column;
     align-items: flex-end;
 }
@@ -209,6 +210,7 @@ a.presentation:hover, a.competences:hover ,a.passion:hover ,a.contact:hover{
     width: 60%;
     flex-direction: column;
     align-content: flex-start;
+    padding-left: 20px;
 }
 
 
