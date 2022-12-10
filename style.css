@@ -142,7 +142,9 @@ a.presentation:hover, a.competences:hover ,a.passion:hover ,a.contact:hover{
 .grid-item{
     width: 300px;
     height: 250px;
-    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 .container{
     padding: 25px;
@@ -212,4 +214,18 @@ span.txtContact:hover{
     transition: 0.7s;
     display: flex;
     justify-content: center;
+}
+.chal{
+    height: 250px;
+}
+.savoirPlus{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: white(155, 0, 0);
+    letter-spacing: 0.2em;
+    color: #0c2461;
+    background-color: #c8d6e5;
+    border-radius: 6px;
+    padding: 1px    ;
 }
